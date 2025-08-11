@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>Knopf Website</title>
+        <link rel="stylesheet" href="gameDesign.css">
+        <script language="javascript" type="text/javascript" src="impostorGame.js"></script>
+    </head>
+    <body>
+        <h1>Impostor Game</h1>
+        <!-- -->
+        <!--<button onclick="zeigeNachricht()">Klick mich!</button>-->
+        <input type="text" 
+                id="numPlayer" 
+                style = "display:inline;"
+                placeholder="Anzahl der Spieler">
+        <button id="start" 
+                style = "display: inline;"
+                onclick="startButtonClicked()">Start</button>
+        <button id="output" 
+                style="display: none;" 
+                onclick="nextButtonClicked()">Nächster Spieler</button>
+        
+        <div id="message"></div>
+    </body>
+</html>
