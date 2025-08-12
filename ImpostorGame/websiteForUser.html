@@ -14,12 +14,31 @@
                 id="numPlayer" 
                 style = "display:inline;"
                 placeholder="Anzahl der Spieler">
-        <button id="start" 
+        
+        <label id="themeLabel" style="display: inline;">Wähle ein Thema</label> <!--for=""-->
+        <select name="Themes" id="themes" style="display: inline;"> <!--onchange="chooseTheme()"-->
+            <option value="mix">Mix aus allem</option>
+            <option value="food">Essen</option>
+            <option value="nature">Natur</option>
+            <option value="cars">Autos</option>    
+        </select>
+        <label id="mode" style="display: inline;">Wähle Modus</label>
+        <div class="bottomSpace">
+            <select name="ModeChoice" id="modeChoice" style="display: inline;">
+                <option value="withHint">Mit Tipp</option>
+                <option value="withoutHint">Ohne Tipp</option>
+            </select>
+        </div>
+
+        
+        <button id= "start" 
                 style = "display: inline;"
                 onclick="startButtonClicked()">Start</button>
+        
         <button id="output" 
-                style="display: none;" 
-                onclick="nextButtonClicked()">Nächster Spieler</button>
+        style="display: none;" 
+        onclick="nextButtonClicked()">Nächster Spieler</button>
+
         
         <div id="message"></div>
     </body>

@@ -15,7 +15,7 @@ button {
   border: none;
   background-color: #4CAF50;
   color: white;
-  border-radius: 2vh; /*10px*/
+  border-radius: 10px; /*10px*/
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /*4px 6px*/
   transition: background-color 0.3s ease;
@@ -27,13 +27,27 @@ input {
   padding: 1%;
   margin-bottom: 1%;
   border: none;
-  border-radius: 2vh;
+  border-radius: 10px;
 }
 
 h1 {
   background-color: #9dcf15;
   font-size: 500%;
   margin-bottom: 2%;
+}
+
+label {
+  width: 50vh;
+  background-color:#ffffff;
+  font-size: 200%;
+  padding: 0.5%;
+  border: none;
+  border-radius: 10px;
+}
+
+select {
+  width: 50vh;
+  font-size: 200%;
 }
 
 /*button:hover {
@@ -46,6 +60,10 @@ h1 {
 
 .color-blue {
     background-color: #007BFF;
+}
+
+.bottomSpace {
+  margin-bottom: 1%;
 }
 
 /*#message {
