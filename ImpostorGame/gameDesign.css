@@ -1,12 +1,96 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #cfad26;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
+
+  /* Apply the animation properties directly to the body */
+  animation: color-change 30s infinite alternate;
+}
+/* @keyframes color-change {
+  0% {
+    background-color: #ff0000;
+  }
+  10% {
+    background-color: #ff7b00;
+  }
+  20% {
+    background-color: #ffc400;
+  }
+  30% {
+    background-color: #ffee00;
+  }
+  40% {
+    background-color: #d9ff00;
+  }
+  50% {
+    background-color: #91ff00;
+  }
+  60% {
+    background-color: #2bff00;
+  }
+  70% {
+    background-color: #00ff95;
+  }
+  80% {
+    background-color: #00f7ff;
+  }
+  90% {
+    background-color: #00a2ff;
+  }
+  100% {
+    background-color: #0077ff;
+  }
+} 
+rainbow colors */
+
+/* @keyframes color-change {
+  0% {
+    background-color: #000080;
+  }
+  10% {
+    background-color: #191970;
+  }
+  20% {
+    background-color: #483D8B;
+  }
+  30% {
+    background-color: #4B0082;
+  }
+  40% {
+    background-color: #8A2BE2;
+  }
+  50% {
+    background-color: #4169E1;
+  }
+  60% {
+    background-color: #008080;
+  }
+  70% {
+    background-color: #008B8B;
+  }
+  80% {
+    background-color: #5F9EA0;
+  }
+  90% {
+    background-color: #2F4F4F;
+  }
+  100% {
+    background-color: #00BFFF;
+  }
+} 
+Ocean/cold colors */
+
+@keyframes color-change {
+  0% {
+    background-color: #ffc400;
+  }
+  100% {
+    background-color: #ffc400;
+  }
 }
 
 button {
@@ -31,13 +115,13 @@ input {
 }
 
 h1 {
-  background-color: #9dcf15;
+  /* background-color: #9dcf15; */
   font-size: 500%;
   margin-bottom: 2%;
 }
 
 label {
-  width: 50vh;
+  width: 20vw;
   background-color:#ffffff;
   font-size: 200%;
   padding: 0.5%;
@@ -46,7 +130,7 @@ label {
 }
 
 select {
-  width: 50vh;
+  width: 20vw;
   font-size: 200%;
 }
 
