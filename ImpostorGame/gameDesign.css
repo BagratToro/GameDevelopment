@@ -107,6 +107,8 @@ button {
 }
 
 input {
+  height: 7%;
+  width: 35%;
   font-size: 400%; /*20px*/
   font-family: sans-serif;
   padding: 1%;
@@ -122,9 +124,10 @@ h1 {
 }
 
 label {
-  width: 25vw;
+  width: 30%;
+  height: 7%;
   background-color:#ffffff;
-  font-size: 300%;
+  font-size: 500%;
   text-align: center;
   padding: 0.5%;
   border: none;
@@ -132,7 +135,7 @@ label {
 }
 
 select {
-  width: 20vw;
+  width: 25%;
   font-size: 300%;
 }
 
@@ -150,6 +153,9 @@ select {
 
 .bottomSpace {
   margin-bottom: 1%;
+  width: 100vw;
+  text-align: center;
+  /* height: 100vh; */
 }
 
 /*#message {
