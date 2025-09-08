@@ -96,7 +96,8 @@ Ocean/cold colors */
 button {
   padding: 1% 2%; /*15px 30px*/
   min-width: 20vw;
-  font-size: 5em; /*18px*/
+  min-height: 30vh;
+  font-size: 10em; /*18px*/
   border: none;
   background-color: #4CAF50;
   color: white;
