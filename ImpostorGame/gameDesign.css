@@ -96,7 +96,7 @@ Ocean/cold colors */
 button {
   padding: 1% 2%; /*15px 30px*/
   min-width: 10vw;
-  font-size: 5vh; /*18px*/
+  font-size: 3em; /*18px*/
   border: none;
   background-color: #4CAF50;
   color: white;
@@ -109,7 +109,7 @@ button {
 input {
   height: 7%;
   width: 65%;
-  font-size: 400%; /*20px*/
+  font-size: 4.5em;
   font-family: sans-serif;
   padding: 1%;
   margin-bottom: 1%;
@@ -132,11 +132,14 @@ label {
   padding: 0.5%;
   border: none;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 select {
   width: 50%;
-  font-size: 300%;
+  font-size: 400%;
   margin-bottom: 1%;
 }
 
